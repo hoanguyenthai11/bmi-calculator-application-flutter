@@ -3,12 +3,10 @@
 import 'package:bmi_application_final/components/advise_card.dart';
 import 'package:bmi_application_final/components/bottom_button.dart';
 import 'package:bmi_application_final/components/progress_bar.dart';
-import 'package:bmi_application_final/components/resuable_card.dart';
 import 'package:bmi_application_final/components/result_widget.dart';
 import 'package:bmi_application_final/constants.dart';
 
 import 'package:flutter/material.dart';
-import 'package:step_progress_indicator/step_progress_indicator.dart';
 
 class ResultPage extends StatelessWidget {
   // const ResultPage({Key? key}) : super(key: key);

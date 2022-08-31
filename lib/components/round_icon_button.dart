@@ -12,17 +12,6 @@ class RoundIconButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // return RawMaterialButton(
-    //   child: Icon(icon),
-    //   elevation: 5.0,
-    //   onPressed: onPress,
-    //   shape: CircleBorder(),
-    //   constraints: BoxConstraints.tightFor(
-    //     width: 56.0,
-    //     height: 56.0,
-    //   ),
-    //   fillColor: Color(0xFF4C4F5E),
-    // );
     return InkWell(
       onTap: onPress,
       borderRadius: BorderRadius.circular(50),
@@ -35,7 +24,7 @@ class RoundIconButton extends StatelessWidget {
           color: kInactiveCardColor,
           borderRadius: BorderRadius.circular(50),
           boxShadow: [
-            BoxShadow(
+            const BoxShadow(
               color: Colors.black54,
               offset: Offset(5, 5),
               blurRadius: 15,
