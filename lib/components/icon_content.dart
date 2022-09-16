@@ -17,7 +17,7 @@ class CardGender extends StatelessWidget {
             size: 80,
             color: Colors.white,
           ),
-          SizedBox(height: 15),
+          const SizedBox(height: 15),
           Text(
             textGender,
             style: kTextStyle,

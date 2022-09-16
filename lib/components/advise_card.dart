@@ -15,7 +15,7 @@ class AdviseCard extends StatelessWidget {
           color: Colors.grey[900],
           borderRadius: BorderRadius.circular(10),
           boxShadow: [
-            BoxShadow(
+            const BoxShadow(
               color: Colors.black,
               offset: Offset(5, 5),
               blurRadius: 15,

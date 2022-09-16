@@ -19,7 +19,7 @@ class ResultWidget extends StatelessWidget {
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(
+            const Text(
               'BMI',
               style: TextStyle(
                 fontSize: 40,

@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers, sort_child_properties_last
 
-import 'package:bmi_application_final/calculator_brain.dart';
+import 'package:bmi_application_final/models/calculator_brain.dart';
 import 'package:bmi_application_final/components/bottom_button.dart';
 import 'package:bmi_application_final/components/icon_content.dart';
 import 'package:bmi_application_final/components/resuable_card.dart';
